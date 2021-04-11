@@ -72,12 +72,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Pull data using google json api
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Functional home button and click into project examples
+- Create a (non functioning "contact me form"
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Id like to be able to display a working nav bar that will link to 'contact me" / 'projects' / 'about me'  pages
 
 ## Functional Components
 
@@ -88,25 +88,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
+| Hamburger | H | 2hr | hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Regular Nav | H | 2hr | hr |  
 | Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| Other sections and flex| H | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
+| Social Media Icons | L | 2hr |  hr |
 | Total | H | 15.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
+| Interactive Banner | H | 4hr | hr |
 | Materialize | H | 4hr | -hr | hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
+| Make own icon | L | 1hr | hr |
 | Total | H | 20hrs| hrs |
 
 ## Additional Libraries
