@@ -35,8 +35,8 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
 | [https://www.brandoncantello.com/](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+|[jkeohan.com](https://www.behance.net/gallery/112690645/Web-design-for-the-photographer?tracking_source=search_projects_recommended%7Cportfolio%20web%20design) | mouseover on a project triggers animations |
+| [mattfarley.ca](https://www.behance.net/gallery/113157685/Photographer-Portfolio?tracking_source=search_projects_recommended%7Cportfolio%20web%20design) |  I like this color pallet
 
 ---
 
