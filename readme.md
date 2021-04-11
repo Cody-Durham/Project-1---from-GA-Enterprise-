@@ -12,12 +12,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1| Complete Wireframes for approval / Complete overall html structure | Incomplete
+|Day 2| Add / styling bootstrap elements | Incomplete
+|Day 3| Core Application JS/jQuery | Incomplete
+|Day 4| MVP & Bug Fixes / | Incomplete
+|Day 5| Present | Incomplete
 
 
 ## Project Description
@@ -26,7 +25,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Link](https://docs.google.com/spreadsheets/d/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/edit#gid=0) 
 
 ## Portfolio I want to Emulate
 
