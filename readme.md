@@ -93,20 +93,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Regular Nav | H | 2hr | hr |  
 | Adding Form | H | 1.5hr|  hr | 
 | Other sections and flex| H | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 2hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Working with API | H | 3.5hrs|  hr | 
+| Responsive | H | 4hr | hr | hr |
+| Social Media Icons | L | 2.5hr |  hr |
+| Total | H | 21.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Project Hover | L | 3hr | -hr | hr |
-| Interactive Banner | H | 4hr | hr |
 | Materialize | H | 4hr | -hr | hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 1hr | hr |
-| Total | H | 20hrs| hrs |
+| Make own icon | L | 2hr | hr |
+| Total | H | 13hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
