@@ -29,9 +29,15 @@
       src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.36/dist/shoelace.js"
     ></script>
 
+    <!-- jQUERY LIBRARY https://code.jquery.com//-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+
     <!-- YOUR CUSTOM CODE -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="Assets/">
     <script src="js/webcomponents.js" defer></script>
     <script src="js/app.js" defer></script>
   </head>
@@ -64,24 +70,32 @@
     </header>
     
 
-    <!-- ********************* MAIN ************************** -->
+    <!-- ********************* UPPER MAIN ************************** -->
     <section>
       <div id="container">
         <!-- I found this video code below on w3schools.com.  Earlier version <video></video> with src attribute wasnt working. Problem fixed. -->
         <!-- https://www.w3schools.com/howto/howto_css_fullscreen_video.asp -->
-        <video autoplay muted id="main-video">
+        <video autoplay muted loop id="main-video">
           <source src="Assets/Video Loop/Particles - 52045.mp4" type="video/mp4">
         </video>
       </div>
       <img src="/Assets/Logos/Me_Drawing-01.svg" id="my-logo" alt="a drawing of me" >
       <h1>Cody Durham</h1>
     </section>
+    
+    <div>
+      <!-- <button class="button">View My Work</button> -->
+    </div>
+
+    <section id="cards">
+      <!-- <my-card name="Project1" git="git" live="live" img="img"></project-card> -->
+    </section>
+
+
+
 
 
     <!-- ********************* FOOTER ************************** -->
-    <footer>
-      <button class="button">View My Work</button>
-    </footer>
 
 
 

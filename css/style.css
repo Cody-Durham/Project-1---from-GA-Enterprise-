@@ -9,6 +9,10 @@ body {
     background-color: var(--primaryColor);
     color: var(--secondaryColor);
     font-family: var(--mainFont);
+} 
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -42,9 +46,9 @@ body {
 
 /* ************** NAVBAR ************ */
 .navbar-toggler-icon {
-    color: none;
-    border: none;
-    color: red;
+    /* color: none; */
+    /* border: none; */
+    /* color: red; */
 }
 
 .navbar-toggler {
@@ -72,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     /* z-index: -1; */
+    
     background-size: cover;
     background-position: center;
     
@@ -85,17 +90,24 @@ section h1 {
     bottom: 43vh;
 }
 
+section {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+
+}
 #my-logo {
     /* border: 2px solid red; */
     height: 12vh;
     position: relative;
-    bottom: 45vh;
-    left: 34%
-    
+    bottom: 45vh;    
 }
 
-/* ************** FOOTER ************ */
-footer {
+/* ************** UPPER MAIN ************ */
+div {
     /* border: 2px solid red; */
     height: 50px;
     display: flex;
@@ -113,3 +125,6 @@ footer {
     height: 40px;
     padding: 0 10px;
 }
+
+/* ************** CARD STYLING ************ */
+
