@@ -66,21 +66,46 @@ body {
 
 /* ************** MAIN ************ */
  #container {
-    /* border: 2px solid red; */
-    height: 50vh;
+    /* border: 2px solid blue; */
+    height: 60vh;
+    width: auto;
     display: flex;
     justify-content: center;
-    z-index: -1;
+    /* z-index: -1; */
     background-size: cover;
+    background-position: center;
+    
 } 
 section h1 {
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     position: relative;
-    top: 25vh;
+    bottom: 43vh;
 }
 
-/* #my-logo {
-    height: 60px;
-} */
+#my-logo {
+    /* border: 2px solid red; */
+    height: 15vh;
+    position: relative;
+    bottom: 45vh;
+    left: 30%
+    
+}
+
+/* ************** FOOTER ************ */
+footer {
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.button {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
