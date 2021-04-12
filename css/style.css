@@ -110,4 +110,6 @@ footer {
     border-radius: 3px;
     position: relative;
     bottom: 10vh;
+    height: 40px;
+    padding: 0 10px;
 }
