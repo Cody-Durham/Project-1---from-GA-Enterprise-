@@ -47,7 +47,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [Mobile p2](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187888/Portfolio%20Project/Portfolio_Wireframes_2-02_q1b6ec.jpg)
 - [Mobile p3](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187883/Portfolio%20Project/Portfolio_Wireframes_3-03_kzhjoo.jpg)
 
-- [Desktop p1](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187276/Portfolio%20Project/Portfolio_Wireframes_4_xgmoxl.ai)
+- [Desktop p1](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187879/Portfolio%20Project/Portfolio_Wireframes_4-04_qt8vgp.jpg)
 - [Desktop p2](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187875/Portfolio%20Project/Portfolio_Wireframes_5-05_yebymt.jpg)
 - [Desktop p3](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187870/Portfolio%20Project/Portfolio_Wireframes_6-06_nwicch.jpg)
 - [Desktop p4](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187865/Portfolio%20Project/Portfolio_Wireframes_7-07_tgijbt.jpg)
