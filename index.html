@@ -49,13 +49,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
           </div>
@@ -67,7 +67,10 @@
     <!-- ********************* MAIN ************************** -->
     <section>
       <div id="container">
-        <video src="Assets/Video Loop/Particles - 52045.mp4" id="video"></video>
+        <!-- I found this video code below on w3schools.com.  Earlier version <video></video> with src attribute wasnt working. Problem fixed. -->
+        <video autoplay muted loop id="main-video">
+          <source src="Assets/Video Loop/Particles - 52045.mp4" type="video/mp4">
+        </video>
       </div>
       <img src="/Assets/Logos/Me_Drawing-01.svg" id="my-logo" alt="a drawing of me" >
       <h1>Cody Durham</h1>

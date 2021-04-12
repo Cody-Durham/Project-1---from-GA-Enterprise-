@@ -87,10 +87,10 @@ section h1 {
 
 #my-logo {
     /* border: 2px solid red; */
-    height: 15vh;
+    height: 12vh;
     position: relative;
     bottom: 45vh;
-    left: 30%
+    left: 34%
     
 }
 
@@ -108,4 +108,6 @@ footer {
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
+    position: relative;
+    bottom: 10vh;
 }
