@@ -3,33 +3,26 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
     // console.log(data);
 
 
-    const project = data.feed.entry.map((item, index) => {
+    const projects = data.feed.entry.map((item, index) => {
         return {
             name: item.gsx$project.$t, 
             git: item.gsx$giturl.$t,
             live: item.gsx$liveurl.$t,
             img: item.gsx$image.$t,
+            description: item.gsx$image.$t,
         }
     })
-   console.log(project);
+   console.log(projects);
 
-    const finalProjectRender = project.map((project) => {
+    const finalProjectRender = projects.map((item) => {
         return`
-        <my-card name=${project.name} git=${project.git} live=${project.live} img=${project.img} ></project-card>
+         <my-card name='${item.name}' git='${item.git}' live='${item.live}' img='${item.img}' desctiption='${item.description}'></project-card></my-card>
         `
     })
     console.log(finalProjectRender);
 
-    const $showCards = $('#cards')
-    $showCards.html(finalProjectRender.join(''))
-
-  
-
-
-
-
-
-
+    const $section = $('#cards')
+    $section.html(finalProjectRender.join(""))
 
 })
 /////////////////////////////// CODE ABOVE HERE ///////////////////////////
