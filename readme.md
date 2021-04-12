@@ -43,8 +43,15 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile p1](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187306/Portfolio%20Project/Portfolio_Wireframes_1_lulwgd.ai)
+- [Mobile p2](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187293/Portfolio%20Project/Portfolio_Wireframes_2_enobdc.ai)
+- [Mobile p3](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187284/Portfolio%20Project/Portfolio_Wireframes_3_c8ktwb.ai)
+
+- [Desktop p1](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187276/Portfolio%20Project/Portfolio_Wireframes_4_xgmoxl.ai)
+- [Desktop p2](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187259/Portfolio%20Project/Portfolio_Wireframes_5_tummh1.ai)
+- [Desktop p3](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187251/Portfolio%20Project/Portfolio_Wireframes_6_tsciyy.ai)
+- [Desktop p4](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618187237/Portfolio%20Project/Portfolio_Wireframes_7_rjntbx.ai)
+
 
 Wireframing Resources:
 
@@ -73,7 +80,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Pull data using google json api
 - Render data on page 
 - Functional home button and click into project examples
-- Create a (non functioning "contact me form"
+- Create a (non functioning) "contact me form"
 
 #### PostMVP 
 
