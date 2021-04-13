@@ -12,6 +12,9 @@ body {
     color: var(--secondaryColor);
     font-family: var(--mainFont);
 } 
+.hidden { 
+    display: none;
+}
 
 
 
@@ -40,63 +43,43 @@ body {
 
 /* ******************************* MAIN ********************************** */
  #container {
-    /* border: 2px solid blue; */
+    /* border: 2px solid red; */
     height: 60vh;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     /* z-index: -1; */
-    
-    background-size: cover;
-    background-position: center;  
 } 
 
-section h1 {
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 43vh;
+#my-logo {
+    transform: scale(.5)
 }
 
-section {
+/* ******** LOGO AND NAME ******** */
+.logo-assets {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    height: 50%;
-    padding: 0px; 
-    margin: 0px;
-    /* flex-direction: row; */
-
-}
-#my-logo {
-    /* border: 2px solid red; */
-    height: 12vh;
     position: relative;
-    bottom: 45vh;    
+    bottom: 45vh;
 }
+.media-logos .hidden{
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+} 
 
-/* ****************************** UPPER MAIN ********************************* */
+
 div {
     /* border: 2px solid red; */
     height: 50px;
     display: flex;
     justify-content: center;
-
 }
-/* .button {
-    background-color: var(--secondaryColor);
-    color: var(--primaryColor);
-    text-transform: uppercase;
-    border: none;
-    border-radius: 3px;
-    position: relative;
-    height: 600px;
-    padding: 0 10px;
-} */
+
 
 /* ******************************* CARD STYLING ******************************* */
 /* cards div */
@@ -108,50 +91,45 @@ div {
 
 /* card image styling */
 .card-image {
-    width: 40vw;
-    height: auto;
+    /* width: 40vw; */
+    /* height: auto; */
     padding: 10px;
-    opacity: 1;
-}
-
-.card-image:hover {
-    opacity: .4;
-}
-
-.card-heading {
-    /* border: 2px solid red; */
-    font-size: 1em;
-    margin-top: 180px;
 }
 
 /* card background */
 .main-card::part(base) {
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     border: none;    
 }
 
-/* card button div styling */
-.main-card div {
-    margin-left: 70px;
-}
-
 /* card body styling..under image */
 .main-card::part(body) {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* background-color: rgb(74, 74, 74); */
     background-color: var(--primaryColor);
-    height: 200px;
+    width: 100%;
+}
+
+/* card header styling */
+section h1 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 20px;
+    font-size: .9em;
+    /* ////////////////////////////////////////////////////// */
 }
 
 /* .button__label span::part(label) {
     border: 2px solid red;
     background-color: red;
 } */
-
-
 
 
 
@@ -197,8 +175,7 @@ div {
 
 /* **************** LOGO / NAME **************** */
 
-#my-logo {
-    /* border: 2px solid red; */
+/* #my-logo {
     height: 12vh;
     position: relative;
     bottom: 45vh;   
@@ -206,32 +183,36 @@ div {
 }
 
 section h1 {
-    /* border: 2px solid red; */
     position: relative;
     bottom: 52vh;
     left: 7vw;
+} */
+/* ******** Logo image and name div ******** */
+.logo-container {
+    border: 2px solid red;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 45vh;
 }
+
+
+.media-logos {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+
+    transform: scale(.7);
+}
+
 
 
 
 }
 /* *********************** media ************************ */
 
-.media-cards {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    list-style-type: none;
-    padding: 0px;
-    transform: scale(.7);
-    position: absolute;
-    top: 390px;
-    left: 950px;
-}
-
-.media-cards li {
-    margin: 10px 0;
-}
 
