@@ -95,27 +95,32 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 2hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| H | 3hr | hr|
-| Working with API | H | 3.5hrs|  hr | 
-| Responsive | H | 4hr | hr | hr |
-| Social Media Icons | L | 2.5hr |  hr |
-| Total | H | 21.5hrs| hrs |
+| Hamburger | H | 2hr | 2hr |
+| Project Previews | H | 3hr | 1hr |
+| Regular Nav | H | 2hr | 1hr |  
+| Adding Form | H | 1.5hr|  2.5hr | 
+| Other sections and flex| H | 3hr | 1.5hr|
+| Working with API | H | 3.5hrs|  1hr | 
+| Responsive | H | 4hr | hr | 2hr |
+| Social Media Icons | L | 2.5hr |  0hr |
+| Total | H | 21.5hrs| 11hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Materialize | H | 4hr | -hr | hr |
+| Project Hover | L | 3hr | -hr |0 hr |
+| Materialize | H | 4hr | -hr | ? hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 2hr | hr |
+| Make own icon | L | 2hr | 0hr |
 | Total | H | 13hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+```
+jQuery
+Bootstrap
+Shoelace
+```
 
 ## Code Snippet
 
