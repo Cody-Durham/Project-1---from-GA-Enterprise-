@@ -124,33 +124,55 @@ div {
     border: none;
     border-radius: 3px;
     position: relative;
-    bottom: 10vh;
+    /* bottom: 10vh; */
     height: 600px;
     padding: 0 10px;
 }
 
 /* ************** CARD STYLING ************ */
+/* cards div */
 #cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-
 }
 
-
+/* card image styling */
 .card-image {
-    /* border: 2px solid red; */
-    width: 15vw;
+    width: 40vw;
     height: auto;
-    /* margin: 0px; */
     padding: 10px;
+    opacity: 1;
 }
+.card-image:hover {
+    opacity: .4;
+}
+
 
 .card-heading {
     /* border: 2px solid red; */
-    font-size: em;
-    margin-top: 200px;
+    font-size: 1em;
+    margin-top: 180px;
 }
-sl-card body {
 
+/* card background */
+.main-card::part(base) {
+    display: flex;
+    align-items: center;
+    border: none;    
+}
+
+/* card button div styling */
+.main-card div {
+    margin-left: 70px;
+}
+
+/* card body styling..under image */
+.main-card::part(body) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: rgb(74, 74, 74); */
+    background-color: var(--primaryColor);
+    height: 200px;
 }

@@ -15,11 +15,13 @@ class ProjectCard extends HTMLElement {
 
         this.innerHTML = 
         `
-        <sl-card>
+        <sl-card class="main-card">
         <h1 class="card-heading">${name}</h1>
         <img class="card-image" src='${img}' alt=${name} slot="image">
-        <a href='${live}'><sl-button>Live</sl-button></a>
-        <a href='${git}'><sl-button>Git</sl-button></a>
+        <div>
+            <a href='${live}'><sl-button>Live</sl-button></a>
+            <a href='${git}'><sl-button>Git</sl-button></a>
+        </div>
         </sl-card>
         `
 
@@ -34,3 +36,5 @@ class ProjectCard extends HTMLElement {
 /////////////////////////////////
 
 customElements.define("my-card", ProjectCard)
+
+{/* <a href='${git}'><sl-button>Git</sl-button></a> */}
