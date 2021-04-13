@@ -16,55 +16,25 @@ body {
 }
 
 
-/* .navbar {
-    background-color: rgb(170, 157, 157);
-    color: white;
-    background-color: #343a40;
+/* ******************************* NAVBAR ****************************** */
+/* dropdown menu */
+.btn {
+    color: var(--secondaryColor)
 }
-.navbar-light .navbar-brand {
-    color: white;
-}
-.navbar span {
-    background-color: #fff;
-}
-.display-4 {
+.dropdown {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.navigation-links ul {
-    text-decoration: none;
-}
-.navigation-links a{
-    text-decoration: none;
-    color: white;
-    /* border: 2px solid pink; */
-} */
-
-
-
-
-/* ************** NAVBAR ************ */
-.navbar-toggler-icon {
-    /* color: none; */
-    /* border: none; */
-    /* color: red; */
+    justify-content: flex-end;
 }
 
-.navbar-toggler {
-    background-color: none;
-    border: none;
-    color: red;
+.dropdown-menu {
+    background-color: var(--primaryColor);
 }
-
-.home-button {
-    height: 30px;
-    width: 60px;
+.dropdown-item {
+    cursor: pointer;
+    color: var(--secondaryColor)
+}
+.dropdown-item:hover {
     background-color: var(--secondaryColor);
-    border: none; 
-    border-radius: 3px;
-    color: var(--primaryColor);
-    text-transform: uppercase;
 }
 
 
