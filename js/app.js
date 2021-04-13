@@ -26,20 +26,3 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
 
 })
 /////////////////////////////// CODE ABOVE HERE ///////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-// feed.entry.gsx$project.$t
-// live: feed.entry.gsx$liveurl.$t
-// git: feed.entry.gsx$giturl.$t
-// image: feed.entry.gsx$image.$t
-// description: feed.entry.gsx$description.$t

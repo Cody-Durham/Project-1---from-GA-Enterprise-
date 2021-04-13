@@ -48,9 +48,9 @@ body {
     /* z-index: -1; */
     
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;  
 } 
+
 section h1 {
     /* border: 2px solid red; */
     display: flex;
@@ -113,10 +113,10 @@ div {
     padding: 10px;
     opacity: 1;
 }
+
 .card-image:hover {
     opacity: .4;
 }
-
 
 .card-heading {
     /* border: 2px solid red; */
@@ -150,3 +150,88 @@ div {
     border: 2px solid red;
     background-color: red;
 } */
+
+
+
+
+
+
+/* ******************************* MEDIA QUERIES ******************************* */
+/* ******************************* MEDIA QUERIES ******************************* */
+/* ******************************* MEDIA QUERIES ******************************* */
+@media screen and (min-width: 1024px) {
+/* ************* NAV DROPDOWN *********** */
+    .dropdown {
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: center;
+        background-color: #281C15;
+        height: 100px;
+        
+     }
+     .dropdown .mobile {
+         /* border: 3px solid red; */
+         margin-right: 270px;
+         font-size: 1.3em;
+     }
+     .dropdown .mobile:hover {
+         transform: scale(1.15);
+         color: var(--secondaryColor);
+         font-weight: bold;
+         border: none;
+     }
+    
+/* **************** MAIN VIDEO/IMAGE **************** */
+#container {
+    /* border: 2px solid blue; */
+    width: 2600px;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0; /* this is weird.. it has to be margin of 0 or it will cover the nav bar*/
+    /* transform: scale(1.1); */
+    transform: scaleX(1.1);
+}
+
+/* **************** LOGO / NAME **************** */
+
+#my-logo {
+    /* border: 2px solid red; */
+    height: 12vh;
+    position: relative;
+    bottom: 45vh;   
+    right: 5vw
+}
+
+section h1 {
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 52vh;
+    left: 7vw;
+}
+
+
+
+}
+/* *********************** media ************************ */
+
+.media-cards {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    list-style-type: none;
+    padding: 0px;
+    transform: scale(.7);
+    position: absolute;
+    top: 390px;
+    left: 950px;
+}
+
+.media-cards li {
+    margin: 10px 0;
+}
+
