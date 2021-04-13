@@ -22,9 +22,16 @@ body {
 /* ******************************* NAVBAR ****************************** */
 /* dropdown menu */
 .btn {
-    color: var(--secondaryColor)
+    /* border: 2px solid red; */
+    color: var(--secondaryColor);
+    font-size: .5em;
+}
+.btn:hover {
+    color: var(--secondaryColor);
+    transform: scale(1.2);
 }
 .dropdown {
+    /* border: 2px solid red; */
     display: flex;
     justify-content: flex-end;
 }
@@ -34,7 +41,8 @@ body {
 }
 .dropdown-item {
     cursor: pointer;
-    color: var(--secondaryColor)
+    color: var(--secondaryColor);
+    font-size: .5em;
 }
 .dropdown-item:hover {
     background-color: var(--secondaryColor);
@@ -49,15 +57,14 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* z-index: -1; */
 } 
 
 #my-logo {
-    transform: scale(.5)
+    transform: scale(.8)
 }
 
 /* ******** LOGO AND NAME ******** */
-.logo-assets {
+.logo-assets-container {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -65,20 +72,14 @@ body {
     position: relative;
     bottom: 45vh;
 }
-.media-logos .hidden{
-    /* border: 2px solid red; */
+
+
+
+/* div {
     height: 50px;
     display: flex;
     justify-content: center;
-} 
-
-
-div {
-    /* border: 2px solid red; */
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
+} */
 
 
 /* ******************************* CARD STYLING ******************************* */
@@ -115,21 +116,22 @@ div {
 }
 
 /* card header styling */
-section h1 {
-    /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
+.name-title {
     text-transform: uppercase;
-    position: relative;
-    margin-right: 20px;
     font-size: .9em;
-    /* ////////////////////////////////////////////////////// */
 }
 
 /* .button__label span::part(label) {
     border: 2px solid red;
     background-color: red;
 } */
+.card-heading {
+    font-size: 1em;
+    display:flex;
+    align-items: center;
+    margin: 3px 20px 0 0;
+    text-transform: uppercase;
+}
 
 
 
@@ -141,78 +143,64 @@ section h1 {
 /* ************* NAV DROPDOWN *********** */
     .dropdown {
         /* border: 3px solid red; */
-        display: flex;
         justify-content: center;
-        background-color: #281C15;
-        height: 100px;
-        
+        height: 26px;
      }
-     .dropdown .mobile {
-         /* border: 3px solid red; */
-         margin-right: 270px;
-         font-size: 1.3em;
+
+     .logo-header {
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
      }
-     .dropdown .mobile:hover {
-         transform: scale(1.15);
-         color: var(--secondaryColor);
-         font-weight: bold;
-         border: none;
-     }
-    
-/* **************** MAIN VIDEO/IMAGE **************** */
-#container {
-    /* border: 2px solid blue; */
-    width: 2600px;
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 0; /* this is weird.. it has to be margin of 0 or it will cover the nav bar*/
-    /* transform: scale(1.1); */
-    transform: scaleX(1.1);
-}
 
-/* **************** LOGO / NAME **************** */
+      .name-title {
+          white-space: nowrap;
+      }
 
-/* #my-logo {
-    height: 12vh;
-    position: relative;
-    bottom: 45vh;   
-    right: 5vw
-}
-
-section h1 {
-    position: relative;
-    bottom: 52vh;
-    left: 7vw;
-} */
 /* ******** Logo image and name div ******** */
-.logo-container {
-    border: 2px solid red;
-    height: 200px;
+
+.logo-assets-container {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-    align-items: center;
-    position: relative;
-    bottom: 45vh;
+    justify-content: center;
 }
 
 
-.media-logos {
-    border: 2px solid red;
+/* .media-logos {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    align-items: center;
     list-style-type: none;
+    position: relative;
+    /* padding-left: 80px; */
 
-    transform: scale(.7);
+    transform: scale(.4);
+
+
+.my-card {
+    /* width: 50% */
+    /* display:flex; */
+    /* flex-direction: row; */
+    /* float: left; */
+    /* width: 100% */
+}
+
+
+.main-card {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    /* float:right; */
 }
 
 
 
 
-}
+
+
+
+} 
 /* *********************** media ************************ */
 
 
