@@ -24,5 +24,28 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
     const $section = $('#card-container')
     $section.html(finalProjectRender.join(""))
 
+
+
+
+const $name = $('.name-title')
+
+$name.on('click', (event) => {
+
+    $('#card-container').removeClass('hidden')
+    
+    console.log('testing the button!!!')
+})
+
+
+
+
+
+
+
+
+
+
+
+
 })
 /////////////////////////////// CODE ABOVE HERE ///////////////////////////
