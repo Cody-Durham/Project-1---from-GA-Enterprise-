@@ -23,11 +23,10 @@ class ProjectCard extends HTMLElement {
             <a href='${git}'><sl-button>Git</sl-button></a>
         </div>
         </sl-card>
-        `
-
-        
+        `        
     }
 }
+
 
 
 

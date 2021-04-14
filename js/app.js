@@ -21,7 +21,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
     })
     console.log(finalProjectRender);
 
-    const $section = $('#cards')
+    const $section = $('#card-container')
     $section.html(finalProjectRender.join(""))
 
 })
