@@ -28,31 +28,71 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
 
 
 const $projectsDrop = $('.dropdown-menu li:nth-of-type(1)')
+const $clearButton = $('<button>')
+const $newDiv = $('<div>')
 
 $projectsDrop.on('click', (event) => {
     $('#card-container').removeClass('hidden')
-    
-    const $button = $('<button>')
-    const $newDiv = $('<div>')
 
     $('body').append($newDiv)
     $newDiv.attr('class', 'button-housing')
 
-    $button.text('Close').appendTo($newDiv)
-    $button.attr('class', 'close-button')
+    $clearButton.text('Close').appendTo($newDiv)
+    $clearButton.attr('class', 'close-button')
 
-    // $button.text('Close').appendTo('body')
-    // $button.attr('class', 'close-button')
-
-    console.log('projects dropdown clicked')
+    $clearButton.attr('class', 'close-button')
 })
 
-// const $contactDrop = $('.dropdown-menu li:nth-of-type(2)')
-// $contactDrop.on('click', (event) => {
-//     // $('#card-container').removeClass('hidden')
+
+
+const $contactDrop = $('.dropdown-menu li:nth-of-type(2)')
+$contactDrop.on('click', (event) => {
+
+    // const $contactForm = $('<section>')
+    // $contactForm.addClass('form-container').appendTo('body')
+    // $contactForm.addClass('hidden')
+
+    const $inputFields = innerHTML = `
+    <section class="form-container">
+        <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Phone Number</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="" class="submit-button btn-primary">Submit</button>
+        </form>
+    </section>
+    `
+    $($inputFields).appendTo('body')
+
     
-//     console.log('contact dropdown clicked')
-// })
+    console.log('contact dropdown clicked')
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $clearButton.on('click', '$clearProjects')
+
+// const $clearProjects = () => {
+//     $('#card-container').attr('class', 'hidden')
+// }
+
+
+
 
 
 
