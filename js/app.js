@@ -56,7 +56,7 @@ $contactDrop.on('click', (event) => {
     console.log('testing')
     $('#main').html(`
     <section class="form-container">
-        <form>
+        <form netlify>
             <div class="form-group">
                 <label for="email">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -69,7 +69,11 @@ $contactDrop.on('click', (event) => {
         </form>
     </section>
     `)
+    $('.submit-button').on('click', (event) => {
+        $('.form-container').addClass('hidden')
+    })
 })
+
 
 
 

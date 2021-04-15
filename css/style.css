@@ -187,7 +187,8 @@ sl-card::part(body) {
      
      .btn {
         /* border: 2px solid red; */
-        font-size: .8em;
+        /* font-size: .8em; */
+    /* not sure why, but this has to be in here  otherwise the project cards stack without wrapping*/
     }
 
      .logo-header {
@@ -264,49 +265,49 @@ sl-card::part(body) {
         position: absolute;
         top: 50rem;
         left: -1px;
-
     }
      
-    .close-button:hover {
+    .close-button-mobile:hover {
+        border: 2px solid hotpink;
         transform: scale(1.1)
     }
 
 } 
 /* *********************** CONTACT FORM ************************ */
-.form-container {
-    /* border: 2px solid red; */
-    width: 75%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 5em;
-    padding: 0px;
-}
-.form-group input {
-    background-color: var(--primaryColor);
-    border: 1.7px solid var(--secondaryColor);
-    opacity: .6;
-}
+    .form-container {
+        /* border: 2px solid red; */
+        width: 75%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 5em;
+        padding: 0px;
+    }
+    .form-group input {
+        background-color: var(--primaryColor);
+        border: 1.7px solid var(--secondaryColor);
+        opacity: .6;
+    }
 
-.form-group {
-    color: var(--secondaryColor);
-    text-transform: uppercase;
-    font-size: .8em;
-    padding: 15px 0;
-}
-.submit-button {
-    background-color: var(--secondaryColor);
-    color: var(--primaryColor);
-    border: none;
-    border-radius: 3px;
-    text-transform: uppercase;
-    width: 8em;
-    height: 2.5em;
-    font-size: .7em;
-}
+    .form-group {
+        color: var(--secondaryColor);
+        text-transform: uppercase;
+        font-size: .8em;
+        padding: 15px 0;
+    }
+    .submit-button {
+        background-color: var(--secondaryColor);
+        color: var(--primaryColor);
+        border: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        width: 8em;
+        height: 2.5em;
+        font-size: .7em;
+    }
 
-.display-about {
-    /* border: 2px solid red; */
-    text-align: center;
-    top: -5em;
-}
+    .display-about {
+        /* border: 2px solid red; */
+        text-align: center;
+        top: -5em;
+    }
 
