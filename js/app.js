@@ -40,6 +40,7 @@ $projectsDrop.on('click', (event) => {
 /// CLEAR PROJECTS ///
 $($closeButtonMobile).on('click', (event) => {
     $cardContainer.addClass('hidden') 
+
 })
 
 /// HIDE CLEAR BUTTON ///
@@ -68,8 +69,6 @@ $contactDrop.on('click', (event) => {
         </form>
     </section>
     `)
-     
-    // $('.button-housing').removeClass('hidden')
 })
 
 

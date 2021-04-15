@@ -20,6 +20,10 @@ body {
     color: red;
 }
 
+:root {
+    --animate-duration: .5s;
+}
+
 
 
 
@@ -305,3 +309,4 @@ sl-card::part(body) {
     text-align: center;
     top: -5em;
 }
+
