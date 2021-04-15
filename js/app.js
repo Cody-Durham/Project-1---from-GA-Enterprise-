@@ -25,26 +25,26 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2
 
 ///////////////////////////////////// GLOBAL VARIABLES //////////////////////////////////////
 const $cardContainer = $('#card-container')
-const $closeButton = $('.close-button')
+const $closeButtonMobile = $('.close-button-mobile')
 
 
 /// SHOW PROJECTS ///
 const $projectsDrop = $('.dropdown-menu li:nth-of-type(1)')
 
 $projectsDrop.on('click', (event) => {
-    $('#main').empty
+    // $('#main').empty
     $($cardContainer).removeClass('hidden')
-    $('.close-button').removeClass('hidden')
+    $($closeButtonMobile).removeClass('hidden')
 })
 
 /// CLEAR PROJECTS ///
-$('.close-button').on('click', (event) => {
+$($closeButtonMobile).on('click', (event) => {
     $cardContainer.addClass('hidden') 
 })
 
 /// HIDE CLEAR BUTTON ///
-$closeButton.on('click', (event) => {
-    $('.button-housing').addClass('hidden')
+$closeButtonMobile.on('click', (event) => {
+    $($closeButtonMobile).addClass('hidden')
 })
 
 
@@ -52,8 +52,7 @@ $closeButton.on('click', (event) => {
 const $contactDrop = $('.dropdown-menu li:nth-of-type(2)')
 
 $contactDrop.on('click', (event) => {
-    // $('#main').empty()
-
+    console.log('testing')
     $('#main').html(`
     <section class="form-container">
         <form>

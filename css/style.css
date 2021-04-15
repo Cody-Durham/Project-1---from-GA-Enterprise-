@@ -136,7 +136,7 @@ sl-card::part(body) {
     left: 8.5em;
 }
 
-.close-button {
+.close-button-mobile {
     height: 25px;
     width: 60px;
     border: none;
@@ -183,7 +183,7 @@ sl-card::part(body) {
      
      .btn {
         /* border: 2px solid red; */
-        font-size: .8`em;
+        font-size: .8em;
     }
 
      .logo-header {
