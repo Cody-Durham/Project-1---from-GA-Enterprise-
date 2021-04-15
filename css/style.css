@@ -249,35 +249,23 @@ sl-card::part(body) {
     }
 
 
-
-
-
     /* ************************ CLEAR BUTTON ************** */
-    /* .button-housing {
-        border: 5px solid hotpink;
+     .button-housing {
+        /* border: 5px solid hotpink; */
         height: 50px;
         display: flex;
+        width: 100%;
         justify-content: center;
         align-items: center;
-        position: relative;
-        bottom: 66em;
-    } */
-    
-    
-    /* .close-button {
-        height: 25px;
-        width: 60px;
-        border: none;
-        border-radius: 2px;
-        background-color: var(--secondaryColor);
-        text-transform: uppercase;
-        font-size: .5em;
+        position: absolute;
+        top: 50rem;
+        left: -1px;
+
     }
-    
+     
     .close-button:hover {
         transform: scale(1.1)
-    } */
-
+    }
 
 } 
 /* *********************** CONTACT FORM ************************ */
@@ -310,4 +298,10 @@ sl-card::part(body) {
     width: 8em;
     height: 2.5em;
     font-size: .7em;
+}
+
+.display-about {
+    /* border: 2px solid red; */
+    text-align: center;
+    top: -5em;
 }

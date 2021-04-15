@@ -80,7 +80,7 @@ const $aboutDrop = $('.dropdown-menu li:nth-of-type(3)')
 $aboutDrop.on('click', (event) => {
     // $('#main').empty()
     $('#main').html(`
-    <section class="display-about styling">
+    <section class="display-about">
         <h1 class="about-me-copy">Born and raised in Colorado Ive learned to love the outdoors and everything it has to
             offer. Fly Fishing, mountain biking and hunting are some of my favorite things to do when I have time. I
             also rock some photography and dog training on the side when I have time. </h1><br>
@@ -91,13 +91,7 @@ $aboutDrop.on('click', (event) => {
     </section>
     `)
 })
-
-
-////////////////////////////////////// CLEAR CONTACT FORM ////////////////////////////////////////
-
-
- 
-    
+   
     
     
 })
