@@ -44,6 +44,7 @@ body {
     background-color: var(--primaryColor);
 }
 .dropdown-item {
+    /* border: 2px solid red; */
     cursor: pointer;
     color: var(--secondaryColor);
     font-size: .5em;
@@ -85,14 +86,6 @@ body {
 
 
 /* ******************************* CARD STYLING ******************************* */
-/* cards div */
-/* #card-container {
-    border: 2px solid red;
-    display: flex;
-    flex-wrap: wrap !important;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
 
 /* card image styling */
 .card-image {
@@ -100,7 +93,6 @@ body {
     /* height: auto; */
     padding: 10px;
 }
-
 
 /* card background */
 sl-card::part(base) {
@@ -186,8 +178,13 @@ sl-card::part(body) {
     .dropdown {
         /* border: 3px solid red; */
         justify-content: center;
-        height: 26px;
+        height: 40px;
      }
+     
+     .btn {
+        /* border: 2px solid red; */
+        font-size: .8`em;
+    }
 
      .logo-header {
         /* border: 2px solid red; */
@@ -205,8 +202,6 @@ sl-card::part(body) {
         flex-direction: row;
         justify-content: center;
     }
-
-
     .media-logos {
         /* border: 2px solid red; */
         display: flex;
