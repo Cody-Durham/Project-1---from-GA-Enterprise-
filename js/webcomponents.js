@@ -35,5 +35,3 @@ class ProjectCard extends HTMLElement {
 /////////////////////////////////
 
 customElements.define("my-card", ProjectCard)
-
-{/* <a href='${git}'><sl-button>Git</sl-button></a> */}
