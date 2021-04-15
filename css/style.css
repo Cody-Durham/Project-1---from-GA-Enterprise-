@@ -84,14 +84,6 @@ body {
 }
 
 
-
-/* div {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-} */
-
-
 /* ******************************* CARD STYLING ******************************* */
 /* cards div */
 /* #card-container {
@@ -140,6 +132,46 @@ sl-card::part(body) {
     text-transform: uppercase;
 }
 
+/* ************************* CLOSE BUTTON ******************* */
+.button-housing {
+    /* border: 5px solid hotpink; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47em;
+    left: 8.5em;
+}
+
+.close-button {
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--secondaryColor);
+    text-transform: uppercase;
+    font-size: .5em;
+}
+
+.close-button:hover {
+    transform: scale(1.1)
+}
+
+
+/* ************************* ABOUT ME ******************* */
+.display-about {
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: -8em;
+    width: 80%;
+    margin: 0 auto;
+}
+.about-me-copy {
+    font-size: 1em;
+    line-height: 1.6em;
+}
 
 
 
@@ -226,18 +258,18 @@ sl-card::part(body) {
 
 
     /* ************************ CLEAR BUTTON ************** */
-    .button-housing {
-        /* border: 5px solid hotpink; */
+    /* .button-housing {
+        border: 5px solid hotpink;
         height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         bottom: 66em;
-    }
+    } */
     
     
-    .close-button1 {
+    /* .close-button {
         height: 25px;
         width: 60px;
         border: none;
@@ -249,7 +281,7 @@ sl-card::part(body) {
     
     .close-button:hover {
         transform: scale(1.1)
-    }
+    } */
 
 
 } 
