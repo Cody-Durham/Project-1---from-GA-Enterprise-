@@ -32,13 +32,12 @@ const $closeButtonMobile = $('.close-button-mobile')
 const $projectsDrop = $('.dropdown-menu li:nth-of-type(1)')
 
 $projectsDrop.on('click', (event) => {
-    // $('#main').empty
     $($cardContainer).removeClass('hidden')
     $($closeButtonMobile).removeClass('hidden')
 })
 
 /// CLEAR PROJECTS ///
-$($closeButtonMobile).on('click', (event) => {
+    $($closeButtonMobile).on('click', (event) => {
     $cardContainer.addClass('hidden') 
 
 })
@@ -53,7 +52,10 @@ $closeButtonMobile.on('click', (event) => {
 const $contactDrop = $('.dropdown-menu li:nth-of-type(2)')
 
 $contactDrop.on('click', (event) => {
-    console.log('testing')
+
+    $('#card-container').addClass('hidden')
+    $('.close-button-mobile').addClass('hidden')
+
     $('#main').html(`
     <section class="form-container">
         <form netlify>
