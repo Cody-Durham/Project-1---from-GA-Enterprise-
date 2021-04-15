@@ -37,7 +37,7 @@ $projectsDrop.on('click', (event) => {
 })
 
 /// CLEAR PROJECTS ///
-    $($closeButtonMobile).on('click', (event) => {
+    $closeButtonMobile.on('click', (event) => {
     $cardContainer.addClass('hidden') 
 
 })
