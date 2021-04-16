@@ -21,7 +21,7 @@ body {
 }
 
 :root {
-    --animate-duration: .5s;
+    --animate-duration: .6s;
 }
 
 
@@ -87,6 +87,10 @@ body {
     align-items: center;
     position: relative;
     bottom: 45vh;
+}
+
+.logo-header img:hover {
+    opacity: .9;
 }
 
 

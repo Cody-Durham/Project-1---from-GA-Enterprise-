@@ -40,6 +40,7 @@ $projectsDrop.on('click', (event) => {
     $closeButtonMobile.on('click', (event) => {
     $cardContainer.addClass('hidden') 
 
+
 })
 
 /// HIDE CLEAR BUTTON ///
@@ -74,16 +75,15 @@ $contactDrop.on('click', (event) => {
     $('.submit-button').on('click', (event) => {
         $('.form-container').addClass('hidden')
     })
-})
+});
 
 
 
 
-/// SHOW CONTACT FORM ///
+/// SHOW ABOUT INFO ///
 const $aboutDrop = $('.dropdown-menu li:nth-of-type(3)')
 
 $aboutDrop.on('click', (event) => {
-    // $('#main').empty()
     $('#main').html(`
     <section class="display-about">
         <h1 class="about-me-copy">Born and raised in Colorado Ive learned to love the outdoors and everything it has to
@@ -92,12 +92,21 @@ $aboutDrop.on('click', (event) => {
         <h1 class="about-me-copy">I graduated with a degree in Industrial Design and have worked receintly worked in the
             outdoor space designing/ developing softgoods (backpacks, tents) for a local outdoor company and loved every
             aspect of creating products. </h1>
-        
     </section>
     `)
-})
+});
+
+
+
+$('.logo-header img').on('click', (event) => {
+    $('#main').empty()
+    $('#card-container').addClass('hidden')
+    $('.close-button-mobile').addClass('hidden')
+
+console.log("You found the secret hide 'eveything button!'")
+});
    
     
     
-})
+});
 /////////////////////////////// CODE ABOVE HERE ///////////////////////////
