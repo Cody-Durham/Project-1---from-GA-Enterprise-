@@ -4,6 +4,8 @@
 
 **PROJECT AUTHOR:** Cody Durham
 
+
+
 ## Project Schedule
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
@@ -12,24 +14,32 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Complete Wireframes for approval / Complete overall html structure | Incomplete
-|Day 2| Add / styling bootstrap elements | Incomplete
-|Day 3| Core Application JS/jQuery | Incomplete
-|Day 4| MVP & Bug Fixes / | Incomplete
-|Day 5| Present | Incomplete
+|Day 1| Complete Wireframes for approval / Complete overall html structure | Complete ✔️
+|Day 2| Add / styling bootstrap elements | Complete ✔️
+|Day 3| Core Application JS/jQuery | Complete ✔️
+|Day 4| MVP & Bug Fixes / | Inomplete 
+|NOTE: | Was not able to fix small bug (day4) with current skillset |
+|Day 5| Present | Complete ✔️
 
 
 ## Project Description
+### Project Walkthrough Video
+Check out the quick [video](https://res.cloudinary.com/dhad6e9gj/video/upload/v1618593423/Portfolio%20Project/zoom_0_vwmfgs.mp4) walkthrough for this project. 
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+<!-- <p align = "center">
+<img src="https://media.giphy.com/media/POV8jlA1C9f8Ky3EFF/giphy.gif">
+</p> -->
+
+This project was created using Bootstrap, Shoelace, Javascript, Animate, HTML and CSS to provide its final output.  The exersise is simple and straight to the point, make a portfolio site from scratch and include any projects that you want to show, then deploy it for the world to see. I had multiple points of inspiration from various sites and wanted to recreate some of those elements for my site. This was a perfect opportunity to really sit down and make something from nothing.  This project was also valuable from the standpoint of having time to learn and struggle with different types of tools and customizing them to fit my personal needs. <br>
+NOTE: All projects images, cards and links rendered to the screen are done by calling a Google sheet API. 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Link](https://docs.google.com/spreadsheets/d/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/edit#gid=0) 
+Here is the link to my [Google Sheet](https://docs.google.com/spreadsheets/d/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/edit#gid=0) I used to call with the API.
 
-## Portfolio I want to Emulate
+## Project Inspiration
 
-Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
+Here are a few sites I used for inspiration on design elements, colors, and overall layout. 
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
@@ -54,87 +64,104 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 
 Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- Adobe Illustrator
+<!-- - [Mockflow](https://mockflow.com/app/#Wireframe)
+- [Figma](https://www.figma.com/) -->
 
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618188165/Portfolio%20Project/Project1_time_priority_matrix-01_uzsa81.jpg)
+Here is my [time priority matrix](https://res.cloudinary.com/dhad6e9gj/image/upload/v1618188165/Portfolio%20Project/Project1_time_priority_matrix-01_uzsa81.jpg)
 
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+The Matrix is used to evaluate how long each item will take as well as taking prioirty into consideration. This line will be used to estimate how much time any one feature will take to complete.  
 
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP
 
-- Pull data using google json api
-- Render data on page 
-- Functional home button and click into project examples
-- Create a (non functioning) "contact me form"
+- Pull data using google JSON api ✔️
+- Render data on page ✔️
+- Functional home button and click into project examples ✔️
+- Create a (non functioning) "contact me form" ✔️
 
 #### PostMVP 
 
-- Id like to be able to display a working nav bar that will link to 'contact me" / 'projects' / 'about me'  pages
+- Id like to be able to display a working nav bar that will link to 'contact me" / 'projects' / 'about me'  pages ✔️
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | 2hr |
-| Project Previews | H | 3hr | 1hr |
-| Regular Nav | H | 2hr | 1hr |  
-| Adding Form | H | 1.5hr|  2.5hr | 
-| Other sections and flex| H | 3hr | 1.5hr|
-| Working with API | H | 3.5hrs|  1hr | 
-| Responsive | H | 4hr | hr | 2hr |
-| Social Media Icons | L | 2.5hr |  0hr |
-| Total | H | 21.5hrs| 11hrs |
+| Dropdown Menu | H | 2hr | 2hr |
+| Project Previews | H | 3hr | 2hr |
+| Regular Nav | H | 2hr | 2hr |  
+| Adding Form | H | 5hr|  10hr | 
+| Other sections and flex| H | 3hr | 8hr |
+| Working with API | H | 3.5hrs|  2hr | 
+| Responsive | H | 4hr | hr | 6hr |
+| Social Media Icons | L | 2.5hr |  NA |
+| Total | H | 21.5hrs| 26hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr |0 hr |
-| Materialize | H | 4hr | -hr | ? hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 2hr | 0hr |
-| Total | H | 13hrs| hrs |
+| Project Hover | L | 3hr | NA |
+| Bootstrap | H | 4hr | 2hr |
+| Shoelace | H | 3hr | 5hr |
+| Make own icon | L | 0hr | NA |
+| Total | H | 13hrs| 7hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ```
-jQuery
-Bootstrap
-Shoelace
+- jQuery
+- Bootstrap
+- Shoelace
+- Animate
 ```
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Below is a small piece of code that I was excited about. Essentially, its showing a contact form via the DOM while hiding other sections of the hardcoded HTML.   
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+// SHOW CONTACT FORM ///
+const $contactDrop = $('.dropdown-menu li:nth-of-type(2)')
+
+$contactDrop.on('click', (event) => {
+
+    $('#card-container').addClass('hidden')
+    $('.close-button-mobile').addClass('hidden')
+
+    $('#main').html(`
+    <section class="form-container">
+        <form netlify>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Phone Number</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="submit-button btn-danger id="submit-button">Submit</button>
+        </form>
+    </section>
+    `)
+    $('.submit-button').on('click', (event) => {
+        $('.form-container').addClass('hidden')
+    })
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+ There were two aspects of the project I struggled with: <br>
+ Issue 1:
+- Working with the DOM to generate event handlers and click events after the section or element was rendered to the screen. <br>
+ Solution: Hardcode the element into the HTML and target it after the event handler was called.<br>
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+Issue 2:
+- Working with Shoelace and trying to add custom CSS to elements of the web component was difficult.  
+Solution: Read lots of documentation and trial and error to target the specified elements. 
