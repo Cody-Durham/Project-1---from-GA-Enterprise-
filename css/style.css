@@ -40,9 +40,12 @@ body {
 }
 .dropdown {
     /* border: 2px solid red; */
+    /* width: 100px; */
+    /* margin: 0 auto; */
+    /* height: 50px; */
     display: flex;
     justify-content: flex-end;
-    height: 3em;
+    /* height: 3em; */
 }
 
 .dropdown-menu {
@@ -80,8 +83,8 @@ body {
     /* border: 2px solid red; */
     text-align: center;
     text-transform: uppercase;
-    font-size: 1em;
-    margin-top: 20px;
+    font-size: 1.5em;
+    margin-top: 15px;
 }
 
 /* ******** LOGO AND NAME ******** */
@@ -249,12 +252,18 @@ sl-card::part(body) {
     .dropdown {
         /* border: 3px solid red; */
         justify-content: center;
-        height: 5em;
+        height: 30px;
+        width: 100px;;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid var(--secondaryColor);
+        border-radius: 5px;
      }
      
      .btn {
         /* border: 2px solid red; */
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .dropdown-item {
@@ -317,11 +326,11 @@ sl-card::part(body) {
     #my-logo {
         /* border: 2px solid rgb(207, 250, 114); */
         margin-right: 40px;
-        transform: scale(.5);
+        transform: scale(.4);
     }
 
     .name-title {
-        /* border: 2px solid rgb(207, 250, 114); */
+        /* border: 2px solid red; */
         white-space: nowrap;
         font-size: 2em;
         position: relative;
