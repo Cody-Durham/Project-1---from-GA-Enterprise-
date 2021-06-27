@@ -315,7 +315,8 @@ sl-card::part(body) {
         justify-content: space-evenly;
         height: 1000px;
         flex-wrap: wrap;
-        /* overflow: hidden; */
+        position: relative;
+        bottom: 300px;
     } 
     .main-card {
         width: 40vw;
