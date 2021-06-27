@@ -272,7 +272,7 @@ sl-card::part(body) {
     .logo-assets-container {
         /* border: 2px solid red; */
         position: relative;
-        bottom: 750px;
+        bottom: 550px;
         display: flex;
         flex-direction: row;
         justify-content: center;
