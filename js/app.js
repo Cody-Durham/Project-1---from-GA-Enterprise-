@@ -40,7 +40,6 @@ $projectsDrop.on('click', (event) => {
     $closeButtonMobile.on('click', (event) => {
     $cardContainer.addClass('hidden') 
 
-
 })
 
 /// HIDE CLEAR BUTTON ///
@@ -85,13 +84,12 @@ const $aboutDrop = $('.dropdown-menu li:nth-of-type(3)')
 
 $aboutDrop.on('click', (event) => {
     $('#main').html(`
-    <section class="display-about">
-        <h1 class="about-me-copy">Born and raised in Colorado Ive learned to love the outdoors and everything it has to
-            offer. Fly Fishing, mountain biking and hunting are some of my favorite things to do when I have time. I
-            also rock some photography and dog training on the side when I have time. </h1><br>
-        <h1 class="about-me-copy">I graduated with a degree in Industrial Design and have worked receintly worked in the
-            outdoor space designing/ developing softgoods (backpacks, tents) for a local outdoor company and loved every
-            aspect of creating products. </h1>
+        <section class="display-about">
+
+        <h1 class="about-me-copy">As a developer with a fortitude and passion for being a creator, I set high standards for any project I take on. Leveraging a background in consumer-facing product design and multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects.<br><br>
+        </h1>
+
+        <h1 class="about-me-copy">Born and raised in Colorado Ive learned to love the outdoors and everything it has to offer. Fly Fishing, mountain biking and hunting are some of my favorite things to do when I have time. </h1><br>
     </section>
     `)
 });

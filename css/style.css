@@ -46,6 +46,7 @@ body {
 }
 
 .dropdown-menu {
+    /* border: 2px solid red; */
     background-color: var(--primaryColor);
 }
 .dropdown-item {
@@ -60,6 +61,8 @@ body {
 
 
 /* ******************************* MAIN ********************************** */
+
+
  #container {
     /* border: 2px solid red; */
     height: 60vh;
@@ -70,10 +73,12 @@ body {
 } 
 
 #my-logo {
-    transform: scale(1.2);
+    transform: scale(1);
 }
 
 .name-title {
+    /* border: 2px solid red; */
+    text-align: center;
     text-transform: uppercase;
     font-size: 1em;
     margin-top: 20px;
@@ -90,7 +95,14 @@ body {
 }
 
 .logo-header img:hover {
+    display: flex;
+    justify-content: center;
     opacity: .9;
+}
+
+.software-dev {
+    display: flex;
+    justify-content:center;
 }
 
 
@@ -98,6 +110,7 @@ body {
 
 /* card image styling */
 .card-image {
+    /* border: 2px solid red; */
     /* width: 40vw; */
     /* height: auto; */
     padding: 10px;
@@ -135,8 +148,9 @@ sl-card::part(body) {
 }
 
 /* ************************* CLOSE BUTTON ******************* */
-.button-housing {
-    /* border: 5px solid hotpink; */
+/* Close button not being used */
+/* .button-housing {
+    border: 5px solid hotpink;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -144,9 +158,9 @@ sl-card::part(body) {
     position: absolute;
     top: 79em;
     left: 7em;
-}
+} */
 
-.close-button-mobile {
+/* .close-button-mobile {
     height: 30px;
     width: 90px;
     border: 2px solid var(--secondaryColor);
@@ -155,7 +169,7 @@ sl-card::part(body) {
     background-color: var(--primaryColor);
     text-transform: uppercase;
     font-size: .7em;
-}
+} */
 
 /* .close-button-mobile:hover {
     transform: scale(1.1);
@@ -178,7 +192,46 @@ sl-card::part(body) {
     line-height: 1.6em;
 }
 
+/* *********************** CONTACT FORM ************************ */
+.form-container {
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+    padding: 0px;
+}
+.form-group input {
+    /* background-color: var(--primaryColor); */
+    border: 1.7px solid var(--secondaryColor);
+    opacity: .6;
+}
 
+.form-group {
+    color: var(--secondaryColor);
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 15px 0;
+}
+.submit-button {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 8em;
+    height: 2.5em;
+    font-size: .7em;
+}
+
+.display-about {
+    /* border: 2px solid red; */
+    /* max-width: 1700px; */
+    /* text-align: center; */
+    /* position: relative; */
+    /* bottom: -200px; */
+    /* font-size: 1em; */
+}
 
 
 
@@ -187,6 +240,7 @@ sl-card::part(body) {
 /* ******************************* MEDIA QUERIES ******************************* */
 /* ******************************* MEDIA QUERIES ******************************* */
 /* ******************************* MEDIA QUERIES ******************************* */
+/* Larger Screen (not mobile) */
 
 
 
@@ -200,12 +254,12 @@ sl-card::part(body) {
      
      .btn {
         /* border: 2px solid red; */
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .dropdown-item {
         /* border: 2px solid red; */
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
      .logo-header {
@@ -217,19 +271,34 @@ sl-card::part(body) {
 /* ******** Logo image and name div ******** */
     .logo-assets-container {
         /* border: 2px solid red; */
+        position: relative;
+        bottom: 750px;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .media-logos {
-        /* border: 2px solid red; */
+
+    .software-dev {
+    /* border: 2px solid red;  */
+    /* display: flex; */
+    /* justify-content:flex-end; */
+    /* width: 220px;  */
+    position: relative;
+    top: 40px;
+    right: 290px;
+    white-space: nowrap;
+    /* font-size: 1.2em; */
+}
+
+    /* .media-logos {
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
         list-style-type: none;
         position: relative;
         padding-left: 80px;
         transform: scale(.4);
-    }
+    } */
     #card-container {
         /* border: 2px solid red; */
         /* background-color: salmon; */
@@ -248,13 +317,15 @@ sl-card::part(body) {
     #my-logo {
         /* border: 2px solid rgb(207, 250, 114); */
         margin-right: 40px;
+        transform: scale(.5);
     }
 
     .name-title {
         /* border: 2px solid rgb(207, 250, 114); */
         white-space: nowrap;
-        text-transform: uppercase;
         font-size: 2em;
+        position: relative;
+        right: 130px;
     }
 
     .logo-assets-container {
@@ -263,15 +334,16 @@ sl-card::part(body) {
         /* justify-content: flex-start; */
     }
 
-    .media-logos {
-        /* border: 2px solid rgb(207, 250, 114); */
+    /* .media-logos {
+        border: 2px solid rgb(207, 250, 114);
         padding-left: 0px
-    }
+    } */
 
 
     /* ************************ CLEAR BUTTON ************** */
-     .button-housing {
-        /* border: 5px solid hotpink; */
+    /* Close button not being used */
+     /* .button-housing {
+        border: 5px solid hotpink;
         height: 50px;
         display: flex;
         width: 100%;
@@ -280,7 +352,7 @@ sl-card::part(body) {
         position: relative;
         top: 15rem;
         left: -1px;
-    }
+    } */
 
     .close-button-mobile {
         width: 100px;
@@ -292,29 +364,27 @@ sl-card::part(body) {
         transform: scale(1.1);
     }
 
-} 
-/* *********************** CONTACT FORM ************************ */
+    /* *********************** CONTACT FORM ************************ */
     .form-container {
-        /* border: 2px solid red; */
+        /* border: 2px solid hotpink; */
         width: 75%;
-        margin: 0 auto;
         position: relative;
-        bottom: 5em;
-        padding: 0px;
+        bottom: 400px;
+        width: 800px;
     }
-    .form-group input {
+    /* .form-group input {
         background-color: var(--primaryColor);
         border: 1.7px solid var(--secondaryColor);
         opacity: .6;
-    }
+    } */
 
-    .form-group {
+    /* .form-group {
         color: var(--secondaryColor);
         text-transform: uppercase;
         font-size: .8em;
         padding: 15px 0;
-    }
-    .submit-button {
+    } */
+    /* .submit-button {
         background-color: var(--secondaryColor);
         color: var(--primaryColor);
         border: none;
@@ -323,40 +393,25 @@ sl-card::part(body) {
         width: 8em;
         height: 2.5em;
         font-size: .7em;
-    }
+    } */
 
-    .display-about {
-        /* border: 2px solid red; */
+    /* .display-about {
+        border: 2px solid red;
         max-width: 1700px;
         text-align: center;
         top: -7em;
         font-size: 1.6em;
-    }
+    } */
+    
+
+/* *********************** ABOUT ME COPY ************************ */
+        .display-about {
+            /* border: 2px solid red; */
+            position: relative;
+            top: -400px; 
+            width: 50%;
+            font-size: 1.2em;
+        }
 
 
-
-    /* these querys below change the 1024 query above */
-    /* @media screen and (min-width: 375px) { */
-        /* .close-button-mobile { */
-            /* border: 5px solid hotpink; */
-            /* position: relative; */
-            /* left: 2em; */
-        /* } */
-    /* }; */
-    
-    
-    /* @media screen and (min-width: 425px) { */
-        /* .close-button-mobile { */
-            /* border: 5px solid hotpink; */
-            /* position: relative; */
-            /* left: 3em; */
-        /* } */
-    /* }; */
-    
-    /* @media screen and (min-width: 768px) { */
-        /* .close-button-mobile { */
-            /* border: 5px solid hotpink; */
-            /* position: relative; */
-            /* left: 15em; */
-        /* } */
-    /* }; */
+} 
